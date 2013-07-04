@@ -1,0 +1,189 @@
+body {
+	padding: 10px 10px 40px;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+/* This is needed to avoid problems caused by collapsing vertical margins of any children of this div */
+.pageBodyInner {
+	margin-bottom: 30px;
+	padding: 10px;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+}
+
+.ajax-loaded {
+	border: 1px dashed #ddd;
+	background: #fafafa;
+}
+
+.from-cache {
+	background: #f0f3f7;
+}
+
+.k .ajax-loaded {
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.prev {
+	display: none;
+	position: fixed;
+	left: 20px;
+	top: 50%;
+	color: #999;
+}
+
+.next {
+	display: none;
+	position: fixed;
+	right: 20px;
+	top: 50%;
+	color: #999;
+}
+
+/* Custom container */
+.container-narrow {
+	margin: 0 auto;
+	max-width: 720px;
+}
+
+.container-narrow > hr {
+	margin: 30px 0;
+}
+
+#home .masthead > a {
+	display: none;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+	margin: 30px 0;
+	text-align: center;
+}
+
+.jumbotron h1 {
+	font-size: 36px;
+	line-height: 1;
+	color: #0088cc;
+	font-weight: normal;
+}
+
+.jumbotron .btn {
+	font-size: 21px;
+	padding: 14px 24px;
+}
+
+.jumbotron img {
+	width: 100%;
+	max-width: 100%;
+}
+
+/* Supporting marketing content */
+.marketing {
+	margin: 60px 0;
+}
+
+.marketing p + h4 {
+	margin-top: 28px;
+}
+
+.marketing .btn-group {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.hero-unit.success {
+	background-color: #DFF0D8;
+}
+
+.hero-unit.info {
+	background-color: #D9EDF7;
+}
+
+.hero-unit.error {
+	background-color: #F2DEDE;
+}
+
+h1 {
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: 800;
+}
+
+.masthead {
+	margin-bottom: 20px;
+}
+
+.masthead h3 {
+	font-weight: 400;
+}
+
+.lead small {
+	font-size: 60%;
+}
+
+#home .lead {
+	width: 80%;
+	margin: 0 auto 20px;
+}
+
+#home .hero-unit {
+	text-align: center;
+}
+
+#home .hero-unit p {
+	margin-bottom: 0;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+}
+
+.key {
+	float: left;
+	width: 340px;
+}
+
+.key:first-child {
+	margin-right: 10px;
+}
+
+#home .hero-unit {
+	padding: 30px;
+}
+
+img.centre {
+	display: block;
+	margin: 20px auto;
+}
+
+img.medium {
+	width: 300px;
+}
+
+img.actual {
+	max-width: none;
+}
+
+img.devices {
+	margin: 40px auto;
+}
+
+.footer {
+	margin-top: 40px;
+}
+
+@media (min-width: 769px) {
+	body {
+		padding: 20px 20px 40px;
+	}
+	#home .masthead > a {
+		display: block;
+	}
+}
+
+@media (min-width: 1025px) {
+	.next,
+	.prev {
+		display: block;
+	}
+}
