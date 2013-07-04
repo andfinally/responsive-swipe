@@ -176,9 +176,6 @@ img.devices {
 	body {
 		padding: 20px 20px 40px;
 	}
-	#home .masthead > a {
-		display: block;
-	}
 }
 
 @media (min-width: 1025px) {
