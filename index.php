@@ -16,7 +16,7 @@ render_header();
 
 		<h1>Splendidly responsive!</h1>
 
-		<p class="lead">A jQuery plugin that lets you serve different content to different devices and makes your site swipable.</p>
+		<p class="lead">A jQuery plugin that lets you serve different content to different devices and makes your site swipeable.</p>
         <a class="btn btn-large btn-success" href="https://github.com/andfinally/responsive-swipe" target="_blank">Get it now</a>
 	</div>
 

@@ -368,7 +368,7 @@
 			else {
 				inEdition = false;
 			}
-			// Initialize pjax and swipability, if supported
+			// Initialize pjax and swipeability, if supported
 			// Once init'd, this fn sets up sidepanes after each page transition.
 			// The sidepanes are selected from the edition, 
 			appSetup();
@@ -614,7 +614,7 @@
 				}
 			});
 
-			// Enhance for swipability
+			// Enhance for swipeability
 			// 
 			// If transitions aren't supported, or the edition has less than three pages, bail
 			if (!supportsTransitions || editionLen < 3) {
