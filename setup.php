@@ -72,7 +72,7 @@ var mySwipe = $('#pageBody').responsiveSwipe({
 
 }
 
-var mySwipe = $('#myResponsiveSwipe').responsiveSwipe({
+var mySwipe = $('#pageBody').responsiveSwipe({
 	afterShow: afterShow
 });
 		</pre></div>
