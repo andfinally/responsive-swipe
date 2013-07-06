@@ -24,11 +24,11 @@ render_header();
 		<p>Once you're confident in how it all works, all you need to get started on your own implementation is the files <code>responsive-swipe.js</code> and <code>swipeview.js</code>. You'll find helpful comments in <code>responsive-swipe.js</code>, and a lot of options you may find useful.</p>
 
 		<h3>Basic initialisation</h3>
-		<p>To initialise the plugin with a static "edition" list:</p>
+		<p>To initialise the plugin with a static "edition" list, pass a selector for the element that contains your #swipeview-slider div and call responsiveSwipe. Here's a basic example, passing the edition list of URLs the plugin will swipe to.</p>
 		<div class="row">
 			<pre class="span8 offset2">
-var mySwipe = $('#myResponsiveSwipe').responsiveSwipe({
-	edition: ['/', '/foo', '/bar', '/etc']
+var mySwipe = $('#pageBody').responsiveSwipe({
+	edition: ['/', '/foo.php', '/bar.php', '/etc.php']
 });</pre>
 		</div>
 		<h3>responsiveSwipe methods</h3>
