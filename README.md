@@ -1,7 +1,7 @@
 Responsive Swipe
 ================
 
-Demo site illustrating the splendid Responsive Swipe jQuery plugin, which enables you to create a responsive content (RESS) site that is swipeable on touch devices. You can see it in action (and more documentation) at <a href="http://humbleself.com/responsive-swipe/">http://humbleself.com/responsive-swipe/</a>.
+Demo site illustrating the splendid Responsive Swipe jQuery plugin, which enables you to create a responsive content (RESS) site that is swipeable on touch devices. Documentation is included in this code, which you can see in action at <a href="http://humbleself.com/responsive-swipe/">http://humbleself.com/responsive-swipe/</a>.
 
 This demo requires a web server with PHP.
 
