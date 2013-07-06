@@ -34,8 +34,8 @@ render_header();
 		<div class="span6">
 
             <h4>Responsive content - not just responsive CSS</h4>
-            <p>With Responsive Swipe, you can send different content to different devices. Serve minimal content to mobile browsers: show higher res images only on devices that can handle them - it's up to you how you use it.</p>
-            <p>Responsive Swipe loads mobile content by default, then enriches it according to device. (It's easy enough to make sure Google gets the full content if you set up your PHP to detect the Googlebot user agent.)</p>
+            <p>With Responsive Swipe, you can create a RESS site that sends different content to different devices. Serve minimal content to mobile browsers: show higher res images only on devices that can handle them - it's up to you how you use it.</p>
+            <p>Responsive Swipe loads mobile content by default, then enriches it according to device.</p>
 
 		</div>
 
@@ -59,6 +59,13 @@ render_header();
 		<div class="span12">
 			<h4>A quick illustration</h4>
 			<p>If you're on a desktop computer, you can see how content can adapt to different devices by adding #emulator to the URL of this page and refreshing, then resize your browser - or for the lazy, <a href="http://<?php echo get_site_url(); ?>#emulator" target="_blank" class="no-ajax">here's a link</a>. The coloured panel above will change depending on your window width. (In normal use, Responsive Swipe chooses what content to serve based on the device's screen width, not browser window width.) While you're in that mode, check out the big logo  image in Firebug or Chrome Developer Tools. When the page first loads it'll be a small image file, <code>logo-small.png</code>. At window sizes above 320 and 480 pixels, it'll be <code>logo-medium.png</code> or <code>logo-large.png</code>. It's a rough illustration of how Responsive Swipe lets you tailor the size of your image files to the capabilities of the devices viewing them.</p>
+		</div>
+	</div>
+	<div class="row-fluid">
+		<div class="span12">
+			<h4>What the dickens is RESS?</h4>
+			<p>RESS stands for "Responsive Design + Server Side Components". It's an idea <a href="http://www.lukew.com/ff/entry.asp?1392">first described</a> by Luke Wroblewski in 2011. Basically it means combining responsive CSS with back-end code that sends back different responses to different devices.</p>
+			<p>If you want to try a slightly different RESS approach, here's a <a href="http://www.netmagazine.com/tutorials/getting-started-ress">tutorial</a> by Anders Andersen.</p>
 		</div>
 	</div>
 

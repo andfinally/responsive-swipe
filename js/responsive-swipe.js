@@ -1,5 +1,5 @@
 // Description: Responsive Swipe jQuery plugin
-// Author: Stephan Fowler for Metro
+// Author: Stephan Fowler
 // git@github.com:stephanfowler/responsive-swipe.git
 
 (function($, window, document){
