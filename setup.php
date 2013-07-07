@@ -38,11 +38,17 @@ var mySwipe = $('#pageBody').responsiveSwipe({
 			<li><b>gotoUrl</b> - calling this loads and swipes in a specific page.</li>
 			<li><b>gotoNext</b> and <b>goToPrevious</b> - swipe to the next and previous pages in the active edition.</li>
 		</ul>
-		<p>If you've initialised the plugin with a line like the one in the basic initialisation example above, you'd call these API methods like this: <code>mySwipe.gotoUrl('disclaimer.php')</code>.</p>
-		<p>A very important option you can set when you initialise the plugin is <code>afterShow</code>. This is Responsive Swipe's replacement for the document ready event, which is no longer useful in an Ajax site. Specify a custom function for this option: the plugin will run that function after it displays a new page in the content area. It'll do this for each new page it loads: it can be very useful for whatever DOM changes you'd like to make once a page has appeared. For example, you might call social plugin APIs at this point.</p>
+		<p>If you've initialised the plugin with a line like the one in the basic initialisation example above, you can call these API methods like this: <code>mySwipe.gotoUrl('disclaimer.php')</code>.</p>
+		<p>A very important option you can set when you initialise the plugin is <code>afterShow</code>. This is Responsive Swipe's replacement for the document ready event, which is no longer useful in an Ajax site. Specify a custom function for this option: the plugin will run that function after it displays a new page in the content area. It'll pass three parameters to your afterShow callback:</p>
+			<ol>
+				<li>The <b>context</b>. This is the HTML element containing the page which has just come into view - handy because it allows you to do jQuery selections just within the visible page.</li>
+				<li>The <b>pageData object</b>. If you encoded any page data in the <code>responsive-swipe-meta</code> element, this is the JavaScript object containing that data, plus any extra data the plugin will have added itself, such as the type of browser action (or <code>clickType</code>) that has led to the current page. (See below for more details.)</li>
+				<li>The <b>responsiveSwipe API</b>. So you can call API methods from within your afterShow callback.</li>
+			</ol>
+			<p>The plugin will do this for each new page it loads: it can be very useful for whatever DOM changes you'd like to make once a page has appeared. For example, you might call social plugin APIs at this point.</p>
 		<div class="row">
 			<pre class="span8 offset2">
-var afterShow = function() {
+var afterShow = function(context, pageData, api) {
 	... your domready type stuff here ...
 }
 
