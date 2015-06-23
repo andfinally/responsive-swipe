@@ -9,4 +9,4 @@ For the plugin itself, just check out responsive.swipe.js and swipeview.js in th
 
 Repo for this code at <a href="https://github.com/andfinally/responsive-swipe">https://github.com/andfinally/responsive-swipe</a>.
 
-Responsive Swipe was originally authored by <a href="https://github.com/stephanfowler">Stephan Fowler</a> for <a href="http://metro.co.uk">metro.co.uk</a>. See Stephan's <a href="https://github.com/stephanfowler/responsive-swipe">repo of the plugin</a> for more details, and see Cubiq's <a href="https://github.com/cubiq/SwipeView">SwipeView</a> repo for the original SwipeView carousel. (We include a fork of SwipeView in this code.)
+Responsive Swipe was originally authored by <a href="https://github.com/stephanfowler">Stephan Fowler</a> for <a href="http://metro.co.uk">metro.co.uk</a>.
